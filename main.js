@@ -1,9 +1,9 @@
 const linksSocialMedia = {
     github: 'yuditakeda',
-    youtube: 'pewdiepie',
-    facebook: 'pewdiepie',
-    instagram: 'pewdiepie',
-    twitter: 'pewdiepie'
+    youtube: 'yudistation',
+    facebook: 'yudistation2001',
+    instagram: 'yudistation',
+    twitter: 'yudistation'
 }
 
 function changeSocialMediaLinks() {
