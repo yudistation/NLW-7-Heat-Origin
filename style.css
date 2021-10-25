@@ -23,6 +23,65 @@ main {
     height: 100vh;
 }
 
+@media (min-width: 426px) {
+    main {
+        background: url(images/background.png) top;
+    }
+}
+
+#seloRockeseat {
+    animation: rotation 25s infinite linear;
+}
+
+#youtubeHover {
+    transition: .5s;
+}
+
+#youtubeHover:hover {
+    background-color: #FF0000;
+    transition: .5s;
+    filter: opacity(0.6);
+}
+
+#instagramHover {
+    transition: .5s;
+}
+
+#instagramHover:hover {
+    background-color: #833AB4;
+    transition: .5s;
+    filter: opacity(0.6);
+}
+
+#facebookHover {
+    transition: .5s;
+}
+
+#facebookHover:hover {
+    background-color: #4267B2;
+    transition: .5s;
+    filter: opacity(0.6);
+}
+
+#twitterHover {
+    transition: .5s;
+}
+
+#twitterHover:hover {
+    background-color: #1DA1F2;
+    transition: .5s;
+    filter: opacity(0.6);
+}
+
+#userLink {
+    transition: .5s;
+}
+
+#userLink:hover {
+    transition: .5s;
+    filter: opacity(0.6);
+}
+
 .container {
     max-width: 250px;
     margin-right: auto;
@@ -76,4 +135,10 @@ ul {
     display: flex;
     gap: .5rem;
     justify-content: center;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg)
+    }
 }
