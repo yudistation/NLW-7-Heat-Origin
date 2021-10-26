@@ -1,5 +1,5 @@
 const linksSocialMedia = {
-    github: 'yuditakeda',
+    github: 'yudistation',
     youtube: 'yudistation',
     facebook: 'yudistation2001',
     instagram: 'yudistation',
