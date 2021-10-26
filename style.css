@@ -50,7 +50,7 @@ main {
 }
 
 #instagramHover:hover {
-    background-color: #833AB4;
+    background-color: #C13584;
     transition: .5s;
     filter: opacity(0.6);
     filter: grayscale(0%);
