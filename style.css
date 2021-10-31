@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    background: url(images/background.png) no-repeat center/cover;
+    background: url(images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
@@ -25,7 +25,7 @@ main {
 
 @media (min-width: 426px) {
     main {
-        background: url(images/desktop.svg) no-repeat center/cover;
+        background: url(images/desktop.svg) no-repeat center;
         background-color: black;
     }
 }
